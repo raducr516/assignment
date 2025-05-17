@@ -1,7 +1,7 @@
 # assigment
 
 create databse: CREATE DATABASE vessel_management;
-swagger api - http://localhost:8080/swagger-ui/index.html#/
+swagger api  documentation - http://localhost:8080/swagger-ui/index.html#/
 
 POST /addOwner
 {
