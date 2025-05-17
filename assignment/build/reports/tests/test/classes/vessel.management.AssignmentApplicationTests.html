@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AssignmentApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AssignmentApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/vessel.management.html">vessel.management</a> &gt; AssignmentApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.999s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Tests</a>
+</li>
+<li>
+<a href="#">Standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddAndGetShip()</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddOwner()</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddOwnerToShipAndRemoveOwnerFromShip()</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddShipCategory()</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteOwner()</td>
+<td class="success">0.711s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteShip()</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteShipCategory()</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAllCategories()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAllShips()</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateShip()</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateShipCategory()</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:38:11.057 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [vessel.management.AssignmentApplicationTests]: AssignmentApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:38:11.170 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration vessel.management.AssignmentApplication for test class vessel.management.AssignmentApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.5)
+
+2025-05-17T14:38:11.527+03:00  INFO 10348 --- [assignment] [    Test worker] v.management.AssignmentApplicationTests  : Starting AssignmentApplicationTests using Java 17.0.12 with PID 10348 (started by night in C:\Users\night\Desktop\assignment)
+2025-05-17T14:38:11.528+03:00  INFO 10348 --- [assignment] [    Test worker] v.management.AssignmentApplicationTests  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-05-17T14:38:12.270+03:00  INFO 10348 --- [assignment] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-17T14:38:12.359+03:00  INFO 10348 --- [assignment] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2025-05-17T14:38:12.864+03:00  INFO 10348 --- [assignment] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-17T14:38:12.923+03:00  INFO 10348 --- [assignment] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-17T14:38:12.954+03:00  INFO 10348 --- [assignment] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-17T14:38:13.270+03:00  INFO 10348 --- [assignment] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-17T14:38:13.302+03:00  INFO 10348 --- [assignment] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-17T14:38:13.461+03:00  INFO 10348 --- [assignment] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@25d9291a
+2025-05-17T14:38:13.463+03:00  INFO 10348 --- [assignment] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-17T14:38:13.494+03:00  WARN 10348 --- [assignment] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-17T14:38:13.515+03:00  INFO 10348 --- [assignment] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-17T14:38:14.321+03:00  INFO 10348 --- [assignment] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-17T14:38:14.484+03:00  INFO 10348 --- [assignment] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-17T14:38:15.411+03:00  WARN 10348 --- [assignment] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-17T14:38:15.499+03:00  INFO 10348 --- [assignment] [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-17T14:38:16.364+03:00  INFO 10348 --- [assignment] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-05-17T14:38:16.366+03:00  INFO 10348 --- [assignment] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-05-17T14:38:16.372+03:00  INFO 10348 --- [assignment] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-05-17T14:38:16.433+03:00  INFO 10348 --- [assignment] [    Test worker] v.management.AssignmentApplicationTests  : Started AssignmentApplicationTests in 5.152 seconds (process running for 6.154)
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        owner_table
+        (owner_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        ship_table
+        (ship_id, imo_number, owner_id, ship_name) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    delete 
+    from
+        category_table 
+    where
+        ship_id=?
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        ship_table
+        (ship_id, imo_number, owner_id, ship_name) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        owner_table
+        (owner_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        owner_table
+        (owner_name) 
+    values
+        (?)
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        ship_table
+        (ship_id, imo_number, owner_id, ship_name) 
+    values
+        (?, ?, ?, ?)
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    delete 
+    from
+        category_table 
+    where
+        ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0 
+    where
+        s1_0.ship_id=?
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        s1_0.id,
+        s1_0.ship_id,
+        s1_0.imo_number,
+        s1_0.owner_id,
+        s1_0.ship_name 
+    from
+        ship_table s1_0
+Hibernate: 
+    select
+        o1_0.owner_id,
+        o1_0.owner_name 
+    from
+        owner_table o1_0
+Hibernate: 
+    select
+        c1_0.ship_id,
+        c1_0.ship_tonnage,
+        c1_0.ship_type 
+    from
+        category_table c1_0
+Hibernate: 
+    select
+        o1_0.ship_id,
+        o1_1.owner_id,
+        o1_1.owner_name 
+    from
+        owner_ships o1_0 
+    join
+        owner_table o1_1 
+            on o1_1.owner_id=o1_0.owner_id 
+    where
+        o1_0.ship_id=?
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+Hibernate: 
+    insert 
+    into
+        category_table
+        (ship_tonnage, ship_type) 
+    values
+        (?, ?)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 8.13</a> at May 17, 2025, 2:38:17 PM</p>
+</div>
+</div>
+</body>
+</html>
